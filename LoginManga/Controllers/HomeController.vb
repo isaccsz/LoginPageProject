@@ -26,6 +26,8 @@ Public Class HomeController
 
             Dim nome As String = registro.Nome
             Dim email As String = registro.Email
+
+            'armazenar senhas dessa forma devia ser crime! Sei que está errado, vou melhorar :/
             Dim senha As String = registro.Senha
 
             Dim usuario As New UsuarioRepository
